@@ -1,0 +1,47 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 316px;
+  width: 316px;
+
+}
+.cell {
+  border: 2px solid black;
+  justify-content: space-between;
+  list-style: none;
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+}
+
+.ttt {
+  height: 316px;
+  width: 316px;
+  margin-left: 755px;
+
+}
+
+.h1 {
+  text-align: center;
+}
+
+.cell1 , .cell2 , .cell3 {
+  border-top: 4px solid black;
+}
+
+.cell1 , .cell4 , .cell7 {
+  border-left: 4px solid black;
+}
+
+.cell3 , .cell6 , .cell9 {
+  border-right: 4px solid black;
+}
+
+
+.cell7 , .cell8 , .cell9 {
+  border-bottom: 4px solid black;
+}
+
+.cell:hover {
+  background-color: yellow;
+}
